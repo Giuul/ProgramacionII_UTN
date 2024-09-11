@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0f0f0;
+}
+
+.encabezado{
+    color: rgb(239, 208, 53);
+    text-align: center;
+    font-family: "Montez", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.imagen{
+    text-align: center;
+    
+}
+
+
+
+.imagen img{
+    padding: 30px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: solid rgb(232, 251, 169) 4px;
+}
+
+.imagen img:hover{
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border: solid rgb(225, 66, 66) 4px;
+}
+
+#tay{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.titulo{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.descripcion{
+    margin-top: 20px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.hobbies{
+    margin-top: 20px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border: solid 4px black;
+    border-style: dotted;
+    padding: 10px;
+}
+
+
+.hobbies ul li{
+    list-style-type: circle;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
